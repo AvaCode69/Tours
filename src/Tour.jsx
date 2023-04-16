@@ -8,6 +8,7 @@ const Tour = ({ id, image, info, name, price, removeTour }) => {
       <div className="tour-info">
         <h5>{name}</h5>
         <p>{info}</p>
+
         <button
           type="button"
           className="btn btn-block delete-btn"
